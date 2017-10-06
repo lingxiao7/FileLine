@@ -1,0 +1,107 @@
+﻿  test.cpp
+d:\project\github\fileline\fileline\test.cpp(18): error C2065: “BIO”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(18): error C2065: “sbio”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(18): error C2065: “out”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(21): error C2065: “SSL_CTX”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(21): error C2065: “ctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(22): error C2065: “SSL_CONF_CTX”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(22): error C2065: “cctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(23): error C2065: “SSL”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(23): error C2065: “ssl”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(24): error C2065: “CONF”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(24): error C2065: “conf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(25): error C2065: “CONF_VALUE”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(25): error C3861: “STACK_OF”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(25): error C2065: “sect”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(26): error C2065: “CONF_VALUE”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(26): error C2065: “cnf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(30): error C2065: “conf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(30): error C3861: “NCONF_new”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(32): error C2065: “conf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(32): error C3861: “NCONF_load”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(40): error C2065: “sect”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(40): error C2065: “conf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(40): error C3861: “NCONF_get_section”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(42): error C2065: “sect”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(47): error C2065: “ctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(47): error C3861: “TLS_client_method”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(47): error C3861: “SSL_CTX_new”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(48): error C2065: “cctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(48): error C3861: “SSL_CONF_CTX_new”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(49): error C2065: “cctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(49): error C2065: “SSL_CONF_FLAG_CLIENT”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(49): error C3861: “SSL_CONF_CTX_set_flags”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(50): error C2065: “cctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(50): error C2065: “SSL_CONF_FLAG_FILE”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(50): error C3861: “SSL_CONF_CTX_set_flags”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(51): error C2065: “cctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(51): error C2065: “ctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(51): error C3861: “SSL_CONF_CTX_set_ssl_ctx”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(52): error C2065: “sect”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(52): error C3861: “sk_CONF_VALUE_num”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(53): error C2065: “cnf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(53): error C2065: “sect”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(53): error C3861: “sk_CONF_VALUE_value”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(54): error C2065: “cctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(54): error C2065: “cnf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(54): error C2227: “->name”的左边必须指向类/结构/联合/泛型类型
+  d:\project\github\fileline\fileline\test.cpp(54): note: 类型是“unknown-type”
+d:\project\github\fileline\fileline\test.cpp(54): error C2227: “->value”的左边必须指向类/结构/联合/泛型类型
+  d:\project\github\fileline\fileline\test.cpp(54): note: 类型是“unknown-type”
+d:\project\github\fileline\fileline\test.cpp(54): error C3861: “SSL_CONF_cmd”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(59): error C2065: “cnf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(59): error C2227: “->name”的左边必须指向类/结构/联合/泛型类型
+  d:\project\github\fileline\fileline\test.cpp(59): note: 类型是“unknown-type”
+d:\project\github\fileline\fileline\test.cpp(59): error C2227: “->value”的左边必须指向类/结构/联合/泛型类型
+  d:\project\github\fileline\fileline\test.cpp(59): note: 类型是“unknown-type”
+d:\project\github\fileline\fileline\test.cpp(60): error C3861: “ERR_print_errors_fp”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(63): error C2065: “cnf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(63): error C2227: “->name”的左边必须指向类/结构/联合/泛型类型
+  d:\project\github\fileline\fileline\test.cpp(63): note: 类型是“unknown-type”
+d:\project\github\fileline\fileline\test.cpp(64): error C2065: “cnf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(64): error C2227: “->value”的左边必须指向类/结构/联合/泛型类型
+  d:\project\github\fileline\fileline\test.cpp(64): note: 类型是“unknown-type”
+d:\project\github\fileline\fileline\test.cpp(67): error C2065: “cnf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(67): error C2227: “->name”的左边必须指向类/结构/联合/泛型类型
+  d:\project\github\fileline\fileline\test.cpp(67): note: 类型是“unknown-type”
+d:\project\github\fileline\fileline\test.cpp(72): error C2065: “cctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(72): error C3861: “SSL_CONF_CTX_finish”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(74): error C3861: “ERR_print_errors_fp”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(84): error C2065: “sbio”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(84): error C2065: “ctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(84): error C3861: “BIO_new_ssl_connect”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(86): error C2065: “sbio”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(86): error C2065: “ssl”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(86): error C3861: “BIO_get_ssl”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(88): error C2065: “ssl”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(94): error C2065: “ssl”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(94): error C2065: “SSL_MODE_AUTO_RETRY”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(94): error C3861: “SSL_set_mode”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(98): error C2065: “sbio”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(98): error C3861: “BIO_set_conn_hostname”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(100): error C2065: “out”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(100): error C2065: “BIO_NOCLOSE”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(100): error C3861: “BIO_new_fp”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(101): error C2065: “sbio”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(101): error C3861: “BIO_do_connect”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(103): error C3861: “ERR_print_errors_fp”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(107): error C2065: “sbio”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(107): error C3861: “BIO_do_handshake”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(109): error C3861: “ERR_print_errors_fp”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(115): error C2065: “sbio”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(115): error C3861: “BIO_puts”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(117): error C2065: “sbio”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(117): error C3861: “BIO_read”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(120): error C2065: “out”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(120): error C3861: “BIO_write”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(123): error C2065: “cctx”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(123): error C3861: “SSL_CONF_CTX_free”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(124): error C2065: “sbio”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(124): error C3861: “BIO_free_all”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(125): error C2065: “out”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(125): error C3861: “BIO_free”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(126): error C2065: “conf”: 未声明的标识符
+d:\project\github\fileline\fileline\test.cpp(126): error C3861: “NCONF_free”: 找不到标识符
+d:\project\github\fileline\fileline\test.cpp(58): warning C4473: “fprintf”: 没有为格式字符串传递足够的参数
+  d:\project\github\fileline\fileline\test.cpp(58): note: 占位符和其参数预计 2 可变参数，但提供的却是 0 参数
+  d:\project\github\fileline\fileline\test.cpp(58): note: 缺失的可变参数 1 为格式字符串“%s”所需
