@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="WinClient.cpp" />
+    <ClCompile Include="WinCrypto.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinCrypto.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{33A01BA5-0C4F-4721-9C51-441C57854178}</ProjectGuid>
@@ -76,7 +80,7 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>D:\openssl\include\;$(IncludePath)</IncludePath>
     <LibraryPath>D:\openssl\lib;$(LibraryPath)</LibraryPath>
-    <TargetName>Client</TargetName>
+    <TargetName>WinClient</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -88,7 +92,7 @@
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>C:\Program Files %28x86%29\OpenSSL\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Program Files %28x86%29\OpenSSL\lib;$(LibraryPath)</LibraryPath>
-    <TargetName>Server</TargetName>
+    <TargetName>WinClient</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>

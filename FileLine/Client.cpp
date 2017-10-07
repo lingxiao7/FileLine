@@ -46,14 +46,14 @@ void socket_init_tcpip()
 #else	
 #endif
 }
+SSL*     ssl;
 
-void main()
+int main()
 {
 	int err = 0;
 	int sd;
 	struct sockaddr_in sa;
 	SSL_CTX* ctx;
-	SSL*     ssl;
 	X509*    server_cert;
 	char*    str;
 	char     buf[4096];
@@ -143,22 +143,22 @@ void main()
 	/* --------------------------------------------------- */
 	/* DATA EXCHANGE - Send a message and receive a reply. */
 
-	//CreateThread(NULL, 0, SendProc, &ssl, 0, NULL);
-	//CreateThread(NULL, 0, RecvProc, &ssl, 0, NULL);
+	//CreateThread(NULL, 0, SendProc, NULL, 0, NULL);
+	CreateThread(NULL, 0, RecvProc, NULL, 0, NULL);
 
 	while (1)
 	{
 		//发送消息  
-		cout << "【客户端】:";
 		scanf("%s", buf);
 		err = SSL_write(ssl, buf, strlen(buf));
 		CHK_SSL(err);
+		cout << "【客户端】:" << buf << endl;
 
-		//接收消息  
-		err = SSL_read(ssl, buf, sizeof(buf) - 1);
-		CHK_SSL(err);
-		buf[err] = '\0';
-		cout << "【服务器】:" << buf << endl;
+		////接收消息  
+		//err = SSL_read(ssl, buf, sizeof(buf) - 1);
+		//CHK_SSL(err);
+		//buf[err] = '\0';
+		//cout << "【服务器】:" << buf << endl;
 
 	}
 
@@ -178,7 +178,7 @@ DWORD WINAPI SendProc(LPVOID lpParameter)
 {
 	int err = 0;
 	char     buf[4096];
-	SSL* ssl = (SSL*)lpParameter;
+	//SSL* ssl = (SSL*)lpParameter;
 	while (1) {
 		scanf("%s", buf);
 		//发送消息  
@@ -194,7 +194,7 @@ DWORD WINAPI RecvProc(LPVOID lpParameter)
 {
 	int err = 0;
 	char     buf[4096];
-	SSL* ssl = (SSL*)lpParameter;
+	//SSL* ssl = (SSL*)lpParameter;
 
 	while (1) {
 		//接收消息  
